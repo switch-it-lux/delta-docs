@@ -24,10 +24,10 @@ Technical information is **not included** in this repository. To access it, plea
 ### About Delta
 
 Delta is a multi-service, multi-tenant cloud platform created by [**Switch IT**](https://www.switch.lu/) offering a variety of services/APIs/portals, including:
-- **Delta Doc production** - Produces documents based on a template and a set of data. A Word add-in is available to design document templates.
-- **Delta Doc storage** - Stores and manages documents in the Delta document repository. In addition to the API, a full-featured portal is available.
+- **Delta Document Production** - Produces documents based on a template and a set of data. A Word add-in is available to design document templates.
+- **Delta Document Storage** - Stores and manages documents in the Delta document repository. In addition to the API, a full-featured portal is available.
 - **Delta Process** - Designs and executes global workflows. Workflows can communicate with all other Delta services as well as external APIs. A Visual Studio add-in is available to design workflows.
-- **Delta Legal archiving** - Provides legal document archiving using the Arcsys archiving system.
+- **Delta Legal Archiving** - Provides legal document archiving using the Arcsys archiving system.
 - **Delta E-signature** - Handles digital electronic document signing using providers such as Nowina, Luxtrust and Namirial.
 - **Delta E-signature Portal** - A global, customizable e-signature solution built on Delta E-signature, Delta Process, and Delta Doc Storage.
 - **Delta Insurance** - Offers tools designed for life insurers.
