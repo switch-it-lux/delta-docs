@@ -5,16 +5,16 @@
 ### Delta 2.4 - Release in progress
 
 - Delta Document Storage 2.4.0:
-  - Document AI insights:
-    - AI-powered document classification and analysis (data extraction).
+  - AI-powered document classification and analysis (data extraction).
     - Supported AI providers: Microsoft Azure Document AI and Mistral.
-    - Supported post-processing: Default, Invoice, CNS, MRZ.
+    - Supported post-processing: Default, Invoice, CNS, MRZ, CIF.
+  - AI-powered document translation for DOCX files.
   - Ability to consult dispatcher traces related to Delta Document Storage.
 - Delta Customer Portal 2.4.0:
   - Developer technical documentation improvements:
     - Access to the definition history of Delta APIs.
     - Comparing versions of Delta APIs.
-    - Delta custom formats documentation.
+    - Delta API custom string formats documentation.
   - Ability to disable developer pages.
 - Delta Process 2.4.0:
   - Delta VS Add-in: support for VS2019 dropped, VS2022 is now required.
@@ -22,10 +22,18 @@
   - Strengthen user access rights.
 - Ability to disable Swagger UIs for all Delta APIs.
 - Ability to request authentication with additional custom claims.
-- Functional release notes available on GitHub and from the Customer Portal (About page).
+- Introduced OWASP dependency checks for enhanced security. 
+- Functional release notes publicly available on GitHub and via the Customer Portal (About page).
 - Minor bug fixes and improvements.
 
 ## Delta 2.3
+
+### Delta 2.3 - Patch 25/11/2025
+
+- Bug fixes:
+  - [#3227] Delta Document Storage: email PDF conversion does not include attached files.
+  - [#3233] Delta Document Storage: unrecognized MIME type for legacy Word documents (.doc).
+  - [#3251] Delta Document Storage: performance degradation when using meta tag filters on the document list.
 
 ### Delta 2.3 - Patch 16/10/2025
 
