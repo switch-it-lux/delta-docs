@@ -28,6 +28,16 @@
 
 ## Delta 2.3
 
+### Delta 2.3 - Patch 15/01/2026
+
+- Bug fixes:
+  - [#3129] Delta Esign: cannot share a LuxTrust tenant across multiple Delta tenants.
+  - [#3282] Delta Email: invalid Brevo IP ranges.
+  - [#3290] Delta Dispatcher: multi-SFTP configuration cannot reference the same path.
+  - [#3291] HTTP errors 500 not logged.
+  - [#3292] Delta Document Storage: performance issue in the OCR service when handling a high number of pending documents.
+  - [#3304] Delta Document Storage: document deletion fails in bulk mode.
+
 ### Delta 2.3 - Patch 25/11/2025
 
 - Bug fixes:
