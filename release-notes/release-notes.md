@@ -28,7 +28,24 @@
 
 ## Delta 2.3
 
-### Delta 2.3 - Patch 15/01/2026
+### Delta 2.3 - Patch 9/04/2026
+
+- Bug fixes:
+  - [#3309] Delta Document Storage: document download fails when file name contains special characters.
+  - [#3311] Delta Document Storage: invalid OCR error messages.
+  - [#3313] Delta Process: some emails are rejected (considered invalid) by Delta Process SendEmail activity.
+  - [#3321] Delta Document Storage: error on wizard unload.
+  - [#3326] Delta Document Storage: Outlook msg conversion fails.
+  - [#3330] ADFS authentication: invalid redirection in case of MSIS9615 (refresh token expiration).
+  - [#3332] Delta Document Storage: timeout/performance issue when sending put tags requests.
+  - [#3339] Delta Document Storage: misinterpreted condition when deleting using a tag filter expression.
+  - [#3342] ADFS authentication: invalid redirection (invalid tenant) in case of redirection after a period of inactivity.
+  - [#3325] Delta E-signature: LuxTrust now returns "SessionSuspended" in some cases instead of "AuthenticationFailed" when a signature session is expired.
+  - [#3340] Delta Document Storage: missing logs in case of Arcsys errors.
+  - [#3341] Delta Document Storage: ClamAV chunk size configuration too small for large documents.
+  - [#3357] Delta Document Storage: HTTP exception when filtering tag names ("EF.Constant<T> method may only be used with an argument that can be evaluated client-side...").
+
+### Delta 2.3 - Patch 16/01/2026
 
 - Bug fixes:
   - [#3129] Delta Esign: cannot share a LuxTrust tenant across multiple Delta tenants.
@@ -37,6 +54,7 @@
   - [#3291] HTTP errors 500 not logged.
   - [#3292] Delta Document Storage: performance issue in the OCR service when handling a high number of pending documents.
   - [#3304] Delta Document Storage: document deletion fails in bulk mode.
+  - [#3306] Delta Document Storage: document list fails when 'show more' is clicked.
 
 ### Delta 2.3 - Patch 25/11/2025
 
@@ -106,6 +124,11 @@
 - Minor bug fixes and improvements.
 
 ## Delta 2.2
+
+### Delta 2.2 - Patch 9/04/2026
+
+- Bug fixes:
+  - Compilation error due to Chrome driver update (reference to Microsoft.Bcl.AsyncInterfaces required).
 
 ### Delta 2.2 - Patch 14/02/2025
 
