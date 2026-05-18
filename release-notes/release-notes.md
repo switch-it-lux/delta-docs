@@ -18,6 +18,8 @@
   - Ability to disable developer pages.
 - Delta Process 2.4.0:
   - Delta VS Add-in: support for VS2019 dropped, VS2022 is now required.
+- Delta Legal Archiving 2.4.0:
+  - Upgrade to Arcsys v3.
 - Delta Ldap worker service 2.4.0:
   - Strengthen user access rights.
 - Ability to disable Swagger UIs for all Delta APIs.
@@ -27,6 +29,11 @@
 - Minor bug fixes and improvements.
 
 ## Delta 2.3
+
+### Delta 2.3 - Patch 18/05/2026
+
+- Bug fixes:
+  - [#3432] Delta Document Storage: OCR performance degradation issue when on large files.
 
 ### Delta 2.3 - Patch 9/04/2026
 
