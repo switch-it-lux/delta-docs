@@ -2,7 +2,7 @@
 
 ## Delta 2.4
 
-### Delta 2.4 - Release in progress
+### Delta 2.4 - Release 22/05/2026
 
 - Delta Document Storage 2.4.0:
   - AI-powered document classification and analysis (data extraction).
@@ -10,6 +10,7 @@
     - Supported post-processing: Default, Invoice, CNS, MRZ, CIF.
   - AI-powered document translation for DOCX files.
   - Ability to consult dispatcher traces related to Delta Document Storage.
+  - Meta tag filter expression syntax improvements: the like operator no longer defaults to a 'contains' search. Wildcards (% and _) must now be explicitly included in the right operand (see format '$tag-filter-exp-3' in Delta Doc Storage custom formats reference).
 - Delta Customer Portal 2.4.0:
   - Developer technical documentation improvements:
     - Access to the definition history of Delta APIs.
@@ -18,6 +19,7 @@
   - Ability to disable developer pages.
 - Delta Process 2.4.0:
   - Delta VS Add-in: support for VS2019 dropped, VS2022 is now required.
+  - Meta tag filter expression syntax improvements: The like operator no longer defaults to a 'contains' search. Wildcards (% and _) must now be explicitly included in the right operand (see format '$tag-filter-exp-3' in Delta Process custom formats reference).
 - Delta Legal Archiving 2.4.0:
   - Upgrade to Arcsys v3.
 - Delta Ldap worker service 2.4.0:
@@ -30,10 +32,11 @@
 
 ## Delta 2.3
 
-### Delta 2.3 - Patch 18/05/2026
+### Delta 2.3 - Patch 20/05/2026
 
 - Bug fixes:
-  - [#3432] Delta Document Storage: OCR performance degradation issue when on large files.
+  - [#3432] Delta Document Storage: OCR performance degradation issue on large files.
+  - [#3508] Delta Process: performance degradation issue in e-signature workflow with large documents.
 
 ### Delta 2.3 - Patch 9/04/2026
 
