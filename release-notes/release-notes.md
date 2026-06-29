@@ -1,6 +1,19 @@
 ﻿# Delta Release Notes
 
+## Delta 2.5
+
+### Delta 2.5 - Release in progress
+
+- Migration .Net8.0 to .Net10.0.
+
 ## Delta 2.4
+
+### Delta 2.4 - Patch 26/06/2026
+
+- Delta Document Storage Portal:
+  - Added support for using the file creation date as a dashboard column.
+- Bug fixes:
+  - [#3572] Delta Esign: Luxtrust notification callback not handled (delta process instance locked).
 
 ### Delta 2.4 - Release 22/05/2026
 
@@ -31,6 +44,11 @@
 - Minor bug fixes and improvements.
 
 ## Delta 2.3
+
+### Delta 2.3 - Patch 24/06/2026
+
+- Bug fixes:
+  - [#3572] Delta Esign: Luxtrust notification callback not handled (delta process instance locked).
 
 ### Delta 2.3 - Patch 20/05/2026
 
