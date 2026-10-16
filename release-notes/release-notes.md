@@ -1,10 +1,20 @@
 ﻿# Delta Release Notes
 
-## Delta 2.5
+## Delta 2.6
 
-### Delta 2.5 - Release in progress
+### Delta 2.6 - Release 12/10/2026
 
 - Migration .Net8.0 to .Net10.0.
+- Bug fixes:
+  - [#3180] Delta Document Storage: silent error with PDF.Js Express: 404 on HEAD ContentRange.
+  - [#3543] Delta Document Storage: error on deleting a large number of documents from document list page.
+  - [#3678] Delta Document Storage: add option to send notifications via HTTP instead of WebSockets.
+  - [#3747] Delta Document Storage: unable to drag and drop items within the View tab of the filter dialog on the document list page.
+  - [#3748] Delta Document Storage: overlapping highlight regions cause the font color to dim or attenuate, rendering the text unreadable.
+
+## Delta 2.5
+
+*Version 2.5 was intentionally skipped and no release exists for this version.*
 
 ## Delta 2.4
 
@@ -407,4 +417,4 @@
 
 ## Delta Older Versions
 
-Release notes for Delta versions earlier than 2.0 are no longer available. Please contact us for more information.
+*Release notes for Delta versions earlier than 2.0 are no longer available. Please contact us for more information.*
